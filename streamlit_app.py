@@ -11,7 +11,6 @@ loaded_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 for column in X.columns:
   print(column)
-  !pip install streamlit_option_menu
   import os
 import pickle
 import streamlit as st
