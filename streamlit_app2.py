@@ -9,7 +9,7 @@ st.set_page_config(page_title="Health Assistant",
                    page_icon="🧑‍⚕️")
 
 # Determine the working directory
-working_dir = os.path.dirname(os.path.abspath('heart_disease_model.sav'))
+working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the heart disease model
 try:
