@@ -1,10 +1,6 @@
 import pickle
 
 
-filename = 'heart_disease_model.sav'
-pickle.dump(model, open(filename, 'wb'))
-
-
 # loading the saved model
 loaded_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
